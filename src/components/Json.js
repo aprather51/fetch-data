@@ -1,8 +1,13 @@
 import React, {Component} from 'react';
 
+//FETCHING EXTERNAL DATA
+//recieving data from data/dataJSON.json
 class Json extends Component {
     render() {
+        //Styling
         const pointStyle = { color: "red" }
+
+        //Mapping
         const {data} = this.props;
         return (
                 <div>
@@ -17,7 +22,6 @@ class Json extends Component {
                                         <p> {experience.period} </p>
                                         <p> {experience.description} </p>
                                     </li>
-                            
                         })}
                     </ul>
                     

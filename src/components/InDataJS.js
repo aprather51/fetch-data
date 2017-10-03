@@ -3,11 +3,10 @@ import React, {Component} from 'react';
 class InDataJS extends Component {
 
     render() {
-        const pointStyle = { 
-            color: "red"
-        
-        }
+        // Styling
+        const pointStyle = { color: "red" }
 
+        //Data Array
         const data = [
             {
               id:"resume",
@@ -36,6 +35,8 @@ class InDataJS extends Component {
         }
     ]
 
+      //** ============================= Method 1 ================================== **/
+
     // const resume = data.map((info, key) => {
     //     return (
     //         <div key={key}>
@@ -56,6 +57,7 @@ class InDataJS extends Component {
     //         )
     //     });
 
+    //** ============================= Method 2 ================================== **/
         return (
             <div>
                 <h2><strong>Data Array <span style={pointStyle}>Internal</span> Component</strong></h2>

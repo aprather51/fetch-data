@@ -1,9 +1,13 @@
 import React, {Component} from 'react';
 
+//FETCHING EXTERNAL DATA 
+//recieving data from data/dataJS.js
 class OutDataJS extends Component {
     render() {
+        // Styling
         const pointStyle = { color: "red" }
-
+        
+        //Map the data array
         const {data} = this.props;
         const resume = data.map((info, key) => {
         return (
