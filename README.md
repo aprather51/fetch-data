@@ -1,6 +1,5 @@
 
-In Progress of learning how to use '.map()' to fetch arrays of objects or items. I encountered few error with nesting array and unique key, struggling to find solution until I post my concern at Stackoverflow discussion [link] (https://stackoverflow.com/questions/46455016/how-can-i-map-a-nested-array-from-json)
-to solve my issues. 
+In Progress of learning how to use '.map()' with es2015 and react. I encountered few issues with unique key, and posted for help at Stackoverflow discussion (link){https://stackoverflow.com/questions/46455016/how-can-i-map-a-nested-array-from-json]
 
-The issues now have been solved, Learned with different method on fetching array and map it. 
+The issues now have been solved with explainations.
 
